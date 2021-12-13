@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "I love the food, who doesn't?",
+      "text": "Have some \"tapas\" in the city center with a beer in a terrace. Enjoy the\n      patatas bravas in Barcelona. Bread with some fuet (dry sausage), a crema\n      catalana ( a typical catalan dessert that it is like the french creme\n      brulée)",
+      "image": "tapas"
+    },
+    {
+      "id": 2,
+      "title": "Sea side and beach",
+      "text": "I love the feeling of waking up and have the chance of going to the beach,\n      as it is just few underground stops away, have some drinks in a\n      \"chiringuito\" (bar in the beach), swim in the Mediterranian sea, nice\n      beaches. There are always people playing volleyball or aquatic sports\n      etc...Best beach in Barcelona for me is \" La Marbella\" in Poblenou.",
+      "image": "Beach"
+    },
+    {
+      "id": 3,
+      "title": "Gaudí and monuments",
+      "text": "I like going to the city center for a walk, go around and get lost. Pay\n      attention at the modernist buildings, go inside, take photos, I feel like\n      a tourist. I love to live in a city where you can look around and always\n      find something that deserves a second to look at it and be inspired. Gaudí\n      is my favourite architect I love his designs of furniture, buildings,\n      decoration...His relation with nature and its shapes makes every single\n      thing special.",
+      "image": "Gaudí"
+    },
+    {
+      "id": 4,
+      "title": "Weather",
+      "text": "I love the weather, not very cold winters. It is something that I didn't\n      realise until I lived in Boston, OMG this is real Winter and not what we\n      have in Barcelona. Very hot summers and lately almost summer time until\n      October -something kind of cool-. Also, we don't have a lot of rain,\n      mainly in Autumn, but only few days a year.",
+      "image": "good weather"
+    },
+    {
+      "id": 5,
+      "title": "Amazing people!",
+      "text": "Barcelona is a fantastic city to meet people, I know that a lot of people\n      say that catalans are \"a bit difficult\" to be friends with. But you will\n      discover, although it is true because everyone has a routine and the same\n      friends and all, we are very open to meet new people, mingle with\n      foreigners and explain a bit what our city and country is about.",
+      "image": "spaniard"
+    }
+  ]
+}
