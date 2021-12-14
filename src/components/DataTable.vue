@@ -1,12 +1,6 @@
 <script setup lang="ts">
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
-import births from '../data/births.json';
-import immigrants_by_nationality from '../data/immigrants_by_nationality.json';
-import life_expectancy from '../data/life_expectancy.json';
-import most_frequent_baby_names from '../data/most_frequent_baby_names.json';
-import most_frequent_names from '../data/most_frequent_names.json';
-import population from '../data/population.json';
 import { AgGridVue } from 'ag-grid-vue3';
 const props = defineProps({
   columnDefs: Array,
