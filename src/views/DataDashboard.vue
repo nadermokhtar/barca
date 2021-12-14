@@ -35,13 +35,14 @@ const options = [
   },
 ];
 const selectDataSet = () => {
-  debugger;
-  console.log('selected:');
-  console.log(selected.value);
-  console.log('columnDefs.value:');
-  console.log(columnDefs._rawValue.typeOf());
-  console.log('selected:');
-  console.log(rowData._rawValue.typeOf());
+  // debugger;
+  // console.log('selected:');
+  // console.log(selected.value);
+  // console.log('columnDefs.value:');
+  // console.log(columnDefs._rawValue.typeOf());
+  // console.log('selected:');
+  // console.log(rowData._rawValue.typeOf());
+  // fetch from local host 3001 to get the data and assign them to ref values
 };
 </script>
 
