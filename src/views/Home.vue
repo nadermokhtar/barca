@@ -1,20 +1,31 @@
 <script setup lang="ts">
-import dynamic_text from '../data/dynamic_text.json';
-import ContentCard from '../components/ContentCard.vue';
+import router from '../router';
+const routes = router.getRoutes();
 </script>
 <template>
-  <div class="grid grid-cols-3 gap-4 place-content-center">
-    <h2>Hello I love barcelona</h2>
-    <p>
-      Barcelona is a great city And I wanted to share my love for the city and
-      some stats
-    </p>
-
-    <ContentCard
-      v-for="card in dynamic_text.cards"
-      :key="card.id"
-      :title="card.title"
-      :text="card.text"
-    />
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 place-content-center">
+      <div class="text-center font-bold text-xl mb-2">
+        Welcome to I love Barcelona
+      </div>
+      <img
+        src="../assets/catalan_flag.png"
+        style="width: 300px; height: 300px"
+        class="mx-auto"
+      />
+      <div class="text-center text-gray-700 text-base">
+        Barcelona is a great city, I wanted to share my love for the city and
+        share some stats to encourage people to learn About it/ Explore it.
+      </div>
+      <div class="ml-10 flex items-baseline space-x-4 place-content-center">
+        <router-link
+          v-for="route in routes"
+          :key="route.name"
+          :to="route.path"
+          class="text-center text-blue-500"
+          >{{ route.name }}</router-link
+        >
+      </div>
+    </div>
   </div>
 </template>
